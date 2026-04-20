@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-04-20T15:30:14.687329+00:00",
+  "base_url": "https://espressif.github.io/esp-openclaw-node/",
+  "asset_base_url": "https://dl.espressif.com/esp-openclaw-node/assets/",
+  "launchpad_url": "https://espressif.github.io/esp-launchpad/minimal-launchpad/",
+  "source": {
+    "branch": "main",
+    "commit": "057a96a222af816930e1dfc4d07228f08777a825"
+  },
+  "apps": [
+    {
+      "app_id": "esp32-node",
+      "app_name": "OpenClaw-ESP32-Node",
+      "config_slug": "openclaw-esp32-node",
+      "description": "OpenClaw node firmware for Wi-Fi capable ESP32 targets.",
+      "console_baudrate": 115200,
+      "readme": "openclaw-esp32-node.md",
+      "targets": [
+        {
+          "chip_key": "esp32",
+          "soc_label": "ESP32",
+          "soc_slug": "esp32",
+          "board_name": "Generic Dev Board",
+          "board_slug": "generic-dev-board",
+          "config_path": "configs/openclaw-esp32-node/esp32-generic-dev-board.toml",
+          "asset_url": "https://dl.espressif.com/esp-openclaw-node/assets/esp32_openclaw_esp32_node.bin"
+        },
+        {
+          "chip_key": "esp32-c3",
+          "soc_label": "ESP32-C3",
+          "soc_slug": "esp32-c3",
+          "board_name": "Generic Dev Board",
+          "board_slug": "generic-dev-board",
+          "config_path": "configs/openclaw-esp32-node/esp32-c3-generic-dev-board.toml",
+          "asset_url": "https://dl.espressif.com/esp-openclaw-node/assets/esp32c3_openclaw_esp32_node.bin"
+        },
+        {
+          "chip_key": "esp32-c5",
+          "soc_label": "ESP32-C5",
+          "soc_slug": "esp32-c5",
+          "board_name": "Generic Dev Board",
+          "board_slug": "generic-dev-board",
+          "config_path": "configs/openclaw-esp32-node/esp32-c5-generic-dev-board.toml",
+          "asset_url": "https://dl.espressif.com/esp-openclaw-node/assets/esp32c5_openclaw_esp32_node.bin"
+        },
+        {
+          "chip_key": "esp32-c6",
+          "soc_label": "ESP32-C6",
+          "soc_slug": "esp32-c6",
+          "board_name": "Generic Dev Board",
+          "board_slug": "generic-dev-board",
+          "config_path": "configs/openclaw-esp32-node/esp32-c6-generic-dev-board.toml",
+          "asset_url": "https://dl.espressif.com/esp-openclaw-node/assets/esp32c6_openclaw_esp32_node.bin"
+        },
+        {
+          "chip_key": "esp32-c61",
+          "soc_label": "ESP32-C61",
+          "soc_slug": "esp32-c61",
+          "board_name": "Generic Dev Board",
+          "board_slug": "generic-dev-board",
+          "config_path": "configs/openclaw-esp32-node/esp32-c61-generic-dev-board.toml",
+          "asset_url": "https://dl.espressif.com/esp-openclaw-node/assets/esp32c61_openclaw_esp32_node.bin"
+        },
+        {
+          "chip_key": "esp32-s3",
+          "soc_label": "ESP32-S3",
+          "soc_slug": "esp32-s3",
+          "board_name": "Generic Dev Board",
+          "board_slug": "generic-dev-board",
+          "config_path": "configs/openclaw-esp32-node/esp32-s3-generic-dev-board.toml",
+          "asset_url": "https://dl.espressif.com/esp-openclaw-node/assets/esp32s3_openclaw_esp32_node.bin"
+        }
+      ]
+    },
+    {
+      "app_id": "esp-box-3-display",
+      "app_name": "OpenClaw-ESP-BOX-3-Display",
+      "config_slug": "openclaw-esp-box-3-display",
+      "description": "OpenClaw node firmware for ESP-BOX-3 with display commands.",
+      "console_baudrate": 115200,
+      "readme": "openclaw-esp-box-3-display.md",
+      "targets": [
+        {
+          "chip_key": "esp32-s3",
+          "soc_label": "ESP32-S3",
+          "soc_slug": "esp32-s3",
+          "board_name": "ESP32-S3-BOX-3",
+          "board_slug": "esp32-s3-box-3",
+          "config_path": "configs/openclaw-esp-box-3-display/esp32-s3-box-3.toml",
+          "asset_url": "https://dl.espressif.com/esp-openclaw-node/assets/esp32s3_box3_openclaw_esp_box_3_display.bin"
+        }
+      ]
+    }
+  ],
+  "default_selection": {
+    "app_id": "esp32-node",
+    "soc_slug": "esp32",
+    "board_slug": "generic-dev-board",
+    "config_path": "configs/openclaw-esp32-node/esp32-generic-dev-board.toml"
+  }
+}

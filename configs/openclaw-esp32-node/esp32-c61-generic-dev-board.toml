@@ -1,0 +1,13 @@
+esp_toml_version = 1.0
+multipart = true
+chip = "esp32-c61"
+supported_apps = ["OpenClaw-ESP32-Node"]
+
+[[portConnectionOptions]]
+console_baudrate = 115200
+
+[OpenClaw-ESP32-Node]
+readme.text = "https://espressif.github.io/esp-openclaw-node/openclaw-esp32-node.md"
+console_baudrate = 115200
+image.esp32-c61.parts = ["https://dl.espressif.com/esp-openclaw-node/assets/esp32c61_openclaw_esp32_node.bin"]
+image.esp32-c61.addresses = ["0x0"]
